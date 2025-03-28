@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nex Genix Creative Services</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="responsive.css" />    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen:wght@400;700&family=Yellowtail&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<!-- Navigation Bar -->
+<nav id="navbar">
+    <div class="logo">
+        <img src="logo.png" alt="logo" class="logo">
+        <p class="logo-title"><a href="#">NEX GENIX CREATIVE SOLUTIONS</a></p>
+	<p class="short-title"><a href="#">NGCS</a></p>
+    </div>
+
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+    <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about_us">About Us</a></li>
+        <li><a href="#products_and_services">Services</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+	<li><a href="#careers">Careers</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+<div class="auth-buttons" id="auth-buttons">
+    <button onclick="handleLogout()" class="logout-btn">Logout</button>
+    <a href="dashboard.html" class="dashboard-btn">Dashboard</a>
+</div>
+
+</nav>
+
+<!-- DIGITAL DESIGN AND VISUAL COMMUNICATION SERVICES -->
+    <div class="ddvcs-container">
+        <h1>DIGITAL DESIGN AND VISUAL COMMUNICATION SERVICES</h1>
+	<img src="33.png" alt="online class" class="ddvcs-image">
+        <div class="ddvcs-description">Why Is It Important to Have Experts Design Your Website?
+Running a business comes with numerous responsibilities, and adding website design and management to your workload can be overwhelming. That's where Nex Genix Creative Solutions comes in&mdash;we specialize in creating and managing professional websites, allowing you to focus on your core business operations.
+A well-designed website is just as essential as maintaining a fully stocked store. It serves as a key platform for clients and customers to assess your brand’s credibility, making a strong online presence crucial for business success.
+</div>
+    </div>
+
+    <div class="ddvcs-products">
+        <div class="product card">
+	    <img src="app design.png" class="app-design" alt="App Design Image">
+            <div class="product-title">App Design</div>
+            <div class="product-description">Our mobile app design services focus on crafting user-friendly and captivating interfaces for applications. We strive to boost user engagement, establish a compelling brand identity, optimize app functionality, and drive revenue growth.</div>
+            <button class="cta-button">Select</button>
+        </div>
+
+        <div class="product card">
+	    <img src="web design.png" class="lesson2" alt="Web Design Image">
+            <div class="product-title">Web Design</div>
+            <div class="product-description"></button>
+        </div>
+
+        <div class="product card">
+	    <img src="grade-level.png" class="lesson3" alt="Lesson 3 Image">
+            <div class="product-title">Grade-Level Learning Series</div>
+            <div class="product-description">Tailored for K-12 students, this structured learning series aligns with educational standards, covering core subjects like Math, Science, English, and Social Studies to support academic excellence.</div>
+            <button class="cta-button">Select</button>
+        </div>
+    </div>
+
+<div class="premium-courses-description">With interactive lessons, expert guidance, and flexible learning options, our Premium Courses empower students and professionals to achieve their goals with confidence. Enroll today and take the next step toward success!</div>
+
+<!-- FOOTER SECTION -->
+<footer>&copy; 2025 <span>Nex Genix Business School</span> All rights reserved.</footer>
+
+    <!-- JavaScript for Toggle -->
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-list').classList.toggle('active');
+            document.querySelector('.hamburger-menu').classList.toggle('open');
+        }
+    </script>
+
+</body>
+</html>
